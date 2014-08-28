@@ -55,7 +55,8 @@ behaviour_info(_Other) ->
 
 start() ->
     application:start(sasl),
-    application:start(iserve).
+    application:start(iserve),
+    application:start(proxy).
 
 add_server(Master, Port, Module, Args) ->
     Conf = {self(), Port, Module, Args},
