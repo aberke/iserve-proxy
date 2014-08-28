@@ -1,1 +1,1 @@
-web: erl -pa ebin modules/*/ebin -noshell -noinput -s iserve
+web: erl -pa ebin modules/proxy/ebin -noshell -noinput -s iserve

@@ -2,6 +2,7 @@ iserve-proxy
 ===
 
 Proxy server written in Erlang.  
+Check it out: <http://iserve-proxy.herokuapp.com/>
 
 Builds with rebar.  Example use of iserve.
 
