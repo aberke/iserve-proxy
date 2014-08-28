@@ -1,9 +1,11 @@
 iserve-proxy
 ===
 
-Originally forked iserve from <https://github.com/noss/iserve>
+Proxy server written in Erlang.  
 
-Changed to work as a proxy server.  Builds with rebar.
+Builds with rebar.  Example use of iserve.
+
+Originally forked iserve from <https://github.com/noss/iserve>
 
 
 Run

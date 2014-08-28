@@ -1,0 +1,1 @@
+web: erl -pa ebin modules/proxy/ebin -eval 'application:start(sasl).' -eval 'application:start(iserve).' -eval 'application:start(proxy).'
