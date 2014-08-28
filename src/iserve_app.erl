@@ -6,7 +6,6 @@
         ]).
 
 start(_Type, _StartArgs) ->
-    io:format("iserve_app.erl start(~w, ~w)*************~n", [_Type, _StartArgs]),
     case iserve_sup:start_link() of
 	{ok, Pid} -> 
 	    {ok, Pid};
