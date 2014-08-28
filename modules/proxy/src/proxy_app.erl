@@ -15,3 +15,12 @@ start(_Type, _StartArgs) ->
 
 stop(_State) ->
     ok.
+
+port() ->
+    case os:getenv("PORT") of
+        false ->
+            {ok, Port} = application:get_env(port),
+            Port;
+        Other ->
+            list_to_integer(Other)
+    end.

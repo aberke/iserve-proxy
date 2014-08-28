@@ -19,7 +19,7 @@ $ mv rebar <some-dir-on-PATH>
 ```
 - Clone or fork this repository and ```$ cd iserve-proxy```
 - Compile code ```$ rebar compile```
-- Run server ```$ erl -pa ebin modules/proxy/ebin -eval 'application:start(sasl).' -eval 'application:start(iserve).' -eval 'application:start(proxy).'```
+- Run server ```$ erl -pa ebin modules/proxy/ebin -s iserve```
 - Visit <http://localhost:6464/>
 
 Stop the server:
