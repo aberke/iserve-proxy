@@ -1,0 +1,8 @@
+{application,proxy,
+	[{applications,[kernel,stdlib,sasl,iserve]},
+	{modules,[proxy_app, proxy_cb]},
+	{mod,{proxy_app,[]}},
+	{registered,[]},
+	{env,[{port,6464},{callback,proxy_cb}]},
+	{vsn,"1.0"},
+	{description,"Proxy with iserve"}]}.
